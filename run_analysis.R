@@ -88,5 +88,4 @@ tidy.data$activity.name <- as.factor(tidy.data$activity.name)
 # Order data set for better viewing.
 tidy.data <- tidy.data[order(tidy.data$subject.id, tidy.data$activity.name), ]
 
-
 View(tidy.data)
