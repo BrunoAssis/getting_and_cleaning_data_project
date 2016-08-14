@@ -88,4 +88,6 @@ tidy.data$activity.name <- as.factor(tidy.data$activity.name)
 # Order data set for better viewing.
 tidy.data <- tidy.data[order(tidy.data$subject.id, tidy.data$activity.name), ]
 
+# View the tidy dataset and write it to a file.
 View(tidy.data)
+write.table(x = tidy.data, file = "tidy_data.txt", row.names = FALSE)

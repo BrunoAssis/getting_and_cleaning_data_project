@@ -1,6 +1,6 @@
 # Tidy Data
 
-To use the tidy data, simply run the `run_analysis.R` script. After that, you'll have a `tidy.data` variable with the tidy data set.
+To use the tidy data, simply run the `run_analysis.R` script. After that, you'll have a `tidy.data` variable with the tidy data set and a file named `tidy_data.txt` with it.
 
 It is described as follows:
 

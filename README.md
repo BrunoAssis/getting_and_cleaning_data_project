@@ -12,6 +12,8 @@ setwd({CLONED_DIR})
 source(run_analysis.R)
 ```
 
+3) It'll create a `tidy_data.txt` file with the tidy data set.
+
 # Disclaimer
 
 The script was created and tested on OS X.
